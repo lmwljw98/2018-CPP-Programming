@@ -16,7 +16,7 @@ int main(){
         int result = 0;
         int end_of_month[12] = {31, 28, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31};
         inStream >> year >> month >> day;
-
+        
         for(int j = 1; j < year; j++){
             if( ((j % 4 == 0) && (j % 100 != 0)) || (j % 400 == 0) ){
                 result += 366;
