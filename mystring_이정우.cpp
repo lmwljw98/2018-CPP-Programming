@@ -10,6 +10,16 @@ public:
         memory = new char[1];
         memory[0] = '\0';
     }
+    MyString& operator=(MyString& s){
+        this->memory = new char[s.size()+1];
+        int i = 0;
+        while(s.memory[i] != '\0'){
+            this->memory[i] = s.memory[i];
+            i++;
+        }
+        this->memory[i] = '\0';
+        return *this;
+    }
     MyString(char str[]){
         int arg_size = 0;
         while(str[arg_size] != '\0')
@@ -101,6 +111,11 @@ int main(){
     MyString b(a);
     cout << b.memory << endl;
     cout << b.size() << endl;
+
+    MyString c("asfdasfasfasf");
+    MyString d;
+    d = c;
+    cout << d.memory << endl;
 
     cout << a.memory << endl;
     cout << a.size() << endl;
