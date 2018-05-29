@@ -1,0 +1,9 @@
+C:\Users\lmwlj\AppData\Local\Temp\ccWuf901.o:main.cpp:(.text+0x13e): undefined reference to `MyPoint::MyPoint(int, int)'
+C:\Users\lmwlj\AppData\Local\Temp\ccWuf901.o:main.cpp:(.text+0x161): undefined reference to `MyPoint::MyPoint(int, int)'
+C:\Users\lmwlj\AppData\Local\Temp\ccWuf901.o:main.cpp:(.text+0x184): undefined reference to `MyPoint::MyPoint(int, int)'
+C:\Users\lmwlj\AppData\Local\Temp\ccWuf901.o:main.cpp:(.text+0x1a7): undefined reference to `MyPoint::MyPoint(int, int)'
+C:\Users\lmwlj\AppData\Local\Temp\ccWuf901.o:main.cpp:(.text+0x1ca): undefined reference to `MyLineSegment::MyLineSegment(MyPoint const&, MyPoint const&)'
+C:\Users\lmwlj\AppData\Local\Temp\ccWuf901.o:main.cpp:(.text+0x1ed): undefined reference to `MyLineSegment::MyLineSegment(MyPoint const&, MyPoint const&)'
+C:\Users\lmwlj\AppData\Local\Temp\ccWuf901.o:main.cpp:(.text+0x206): undefined reference to `MyLineSegment::properIntersection(MyLineSegment const&) const'
+C:\Users\lmwlj\AppData\Local\Temp\ccWuf901.o:main.cpp:(.text+0x24a): undefined reference to `MyLineSegment::improperIntersection(MyLineSegment const&) const'
+collect2.exe: error: ld returned 1 exit status
